@@ -1,0 +1,25 @@
+{
+  "name": "repro-mantine-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/core": "^4.2.12",
+    "@mantine/hooks": "^4.2.12",
+    "@mantine/next": "^4.2.12",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.5",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "typescript": "4.7.4"
+  }
+}
